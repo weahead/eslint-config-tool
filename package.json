@@ -1,0 +1,16 @@
+{
+  "name": "@weahead/eslint-config-tool",
+  "version": "0.1.0",
+  "description": "We aheads shareable eslint config for tool projects.",
+  "main": "index.js",
+  "author": "We ahead <alla@weahead.se>",
+  "license": "X11",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weahead/eslint-config-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weahead/eslint-config-tool/issues"
+  },
+  "homepage": "https://github.com/weahead/eslint-config-tool#readme"
+}
