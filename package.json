@@ -9,6 +9,10 @@
     "commit": "commit",
     "lint": "eslint --fix '**/*.js' '**/*.json'"
   },
+  "files": [
+    "index.js",
+    ".eslintrc.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/weahead/eslint-config-tool.git"
