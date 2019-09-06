@@ -8,23 +8,13 @@
 
 ### Usage
 
-1. Create a file named `.eslintrc.json` and fill it with:
+A `.eslintrc.json` file will automatically be created in the root of your project with:
 
-   ```json
-   {
-     "extends": ["@weahead/eslint-config-tool"]
-   }
-   ```
-
-2. Optionally, add a run target to `scripts` in `package.json`:
-
-   ```json
-   {
-     "scripts": {
-       "lint": "eslint --fix '**/*.js' '**/*.json'"
-     }
-   }
-   ```
+```json
+{
+  "extends": ["@weahead/eslint-config-tool"]
+}
+```
 
 ## License
 
