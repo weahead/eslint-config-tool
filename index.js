@@ -6,6 +6,7 @@ module.exports = {
     es6: true,
     node: true,
   },
+  plugins: ['import'],
   extends: 'eslint:recommended',
   overrides: [
     {
@@ -25,4 +26,14 @@ module.exports = {
       },
     },
   ],
+  rules: {
+    'sort-imports': 'off',
+    'import/first': 'error',
+    'import/newline-after-import': 'error',
+    'import/no-duplicates': 'error',
+    'import/no-useless-path-segments': ['error', { commonjs: true }],
+    'import/export': 'error',
+    'import/no-mutable-exports': 'error',
+    'import/order': 'error',
+  },
 };
